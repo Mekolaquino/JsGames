@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: #082c6c;
+    color:  #ffa600;
+  }
+  header {
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: rgb(70, 216, 241);
+    font-family: "MedievalSharp", cursive;
+    text-align: center;
+  }
+  .scores {
+    justify-content: center;
+    display: flex;
+    color: whitesmoke;
+    background-color: rgba(46, 36, 36, 0.5);
+  }
+  
+  .scores, .scores div {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+} 
+p {
+    font-size: larger;
+  }
+  
+  button {
+    justify-content: center;
+    background-color: #ff1100;
+    color: black;
+    border-radius: 4px;
+    border: 2px solid #f3f3f2;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 25px;
+    min-width: 120px;
+  }
+  
+  button:hover {
+    background-color: black;
+    color: #ff1100;
+  }
+  
+  button:focus {
+    background-color: #000000;
+    color: white;
+  }
+  
+  span {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  li, ul {
+    text-align: center;
+  }
+  
+  strong {
+    color: #ff7300;
+  }
+
+  @media only screen and (max-width: 500) {
+    button {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+
+    .scores {
+      font-size: 16px;
+    }
+  
+    .content {
+      margin-top: 10px;
+    }
+  
+    .scores div {
+      margin: 10px;
+    }
+  }
