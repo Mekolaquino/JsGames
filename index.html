@@ -1,52 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>JS Game</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Game</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+    <h1>Spors Car Racing!</h1>
+    
 
-    <h1>Battle of Elements</h1>
+    <div class="scores">
+        <div><h2>ScoreBoard</h2></div>
+        <div><h3>Player: <span id="playerScore">0</span></h3></div>
+        <div><h3>Computer: <span id="bootScore">0</span></h3></div>
+    </div>
+    <header>
+        <p>
+            <strong>Lamborghini</strong> beats Mustang, <strong>Mustang</strong> beat Supra, <strong>Supra</strong> beats Lamborghini
+        </p>
+        <p>
+            <strong>Choose Your Car</strong> and Race against the Computer..
+          </p>
+    </header>
 
-    
+    <div class="gameOption">
+        <button id="waterBtn">💧</button>
+        <button id="fireBtn">🔥</button>
+        <button id="lightningBtn">⚡</button>
+    </div>
+    
 
-    <div class="scores">
+    <h2>History List</h2>
+    <ul id="historyList">
 
-        <div><h2>ScoreBoard</h2></div>
-
-        <div><h3>Player: <span id="playerScore">0</span></h3></div>
-
-        <div><h3>Computer: <span id="bootScore">0</span></h3></div>
-
-    </div>
-
-    <header>
-
-        <p>
-
-            <strong>Water</strong> beats fire, <strong>Fire</strong> beat lightning, <strong>lightning</strong> beats water. 
-
-        </p>
-
-        <p>
-
-            <strong>Choose Your Element</strong> and Fight against the Computer..
-
-          </p>
-
-    </header>
-
-    <div class="gameOption">
-
-        <button id="waterBtn">💧</button>
+    </ul>
+    <script src="js/script.js"></script>
+</body>
+</html>
